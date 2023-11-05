@@ -3,7 +3,7 @@ entries:
   firstchart:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2023-11-05T19:01:19.675222+05:30"
+    created: "2023-11-05T19:37:47.696601+05:30"
     dependencies:
     - condition: mysql.enabled
       import-values:
@@ -18,13 +18,14 @@ entries:
       repository: https://charts.bitnami.com/bitnami
       tags:
       - one
+      - three
       - two
       version: 10.1.0
     description: A Helm chart for Kubernetes
-    digest: c29636203be3b2110407dac812b95f2a26e0f56bf2cf8dc6f72d1525b6ca06f3
+    digest: 7716cccdb8e3a8bdf197777fe08c56b8294d6a01526e837963c972de2800929a
     name: firstchart
     type: application
     urls:
     - firstchart-0.1.0.tgz
     version: 0.1.0
-generated: "2023-11-05T19:01:19.667714+05:30"
+generated: "2023-11-05T19:37:47.691642+05:30"
