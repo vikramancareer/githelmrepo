@@ -1,0 +1,55 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+annotations:
+  category: Database
+  images: |
+    - name: mysql
+      image: docker.io/bitnami/mysql:8.0.35-debian-11-r0
+    - name: mysqld-exporter
+      image: docker.io/bitnami/mysqld-exporter:0.15.0-debian-11-r70
+    - name: os-shell
+      image: docker.io/bitnami/os-shell:11-debian-11-r90
+  licenses: Apache-2.0
+apiVersion: v2
+appVersion: 8.0.35
+dependencies:
+- - name: common
+  repository: oci://registry-1.docker.io/bitnamicharts
+  tags:
+  - bitnami-common
+  version: 2.x.x
+description: MySQL is a fast, reliable, scalable, and easy to use open source relational
+  database system. Designed to handle mission-critical, heavy-load production applications.
+home: https://bitnami.com
+icon: https://bitnami.com/assets/stacks/mysql/img/mysql-stack-220x234.png
+keywords:
+- - mysql
+- - database
+- - sql
+- - cluster
+- - high availability
+maintainers:
+- - name: VMware, Inc.
+  url: https://github.com/bitnami/charts
+name: mysql
+sources:
+- - https://github.com/bitnami/charts/tree/main/bitnami/mysql
+version: 9.14.1
+
+...
+files:
+  mysql-9.14.1.tgz: sha256:0f0a983c313b6093190ceaa0bcdf1dd4025055be77e19e299873ba6d4a90e38e
+-----BEGIN PGP SIGNATURE-----
+
+wsDcBAEBCgAQBQJlSHsvCRBr1UsGYk/tEAAAfiwMAJPQm7v6dxqknS2e1KVelkai
+MBBOYl2y3SI2Ut/MJUkR5tfQbMwbYIhftUU35igUzHpsKf9rRHX/dgco+ExvCDDQ
+gsogTN0q3agcr3aJfZB4JQqI9JpGAj/cw98AWXAFip9g6SCiXrboQfNacZjmlOUL
+nSyodZE/V741bJGE33BbMRE2dooHQKL3LmSRe5wA6yl3V3juAi9TpwldrHRmU4NM
+OBS4wjvRzrWBVbbThBjuHVPj62w7K9OuEOcxYpGqnLDIo3vn8zODU82KXhSQ05Xu
+kidmZKY+hiWStU5gVjI3xXT5L8QOx7Lh0grCdKyocPwbCXYRYbteLqZ1qNiFs7lu
+yPhTmHIJZ8WraaWBD4zkk5fj3mtwVnpxiZ63pzSKe+V0mUF+H4PjhsWL7W9VjOk9
+SOtsLltQBHOZjyZC1bioPdP9a2ykRBD9jZL54/eqjX95TI76zAFMog0lPZtTwEfV
+fOsudspKLA1z0zphGmyFwxOsPa8tirEVKMrLKz6UGw==
+=c0Jy
+-----END PGP SIGNATURE-----
